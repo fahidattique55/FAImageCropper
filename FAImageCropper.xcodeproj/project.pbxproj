@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290399801E411D9500CC0C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903997F1E411D9500CC0C20 /* AppDelegate.swift */; };
+		290399851E411D9500CC0C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290399831E411D9500CC0C20 /* Main.storyboard */; };
+		290399871E411D9500CC0C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290399861E411D9500CC0C20 /* Assets.xcassets */; };
+		2903998A1E411D9500CC0C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290399881E411D9500CC0C20 /* LaunchScreen.storyboard */; };
+		290399951E411D9500CC0C20 /* FAImageCropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290399941E411D9500CC0C20 /* FAImageCropperTests.swift */; };
+		290399A01E411D9500CC0C20 /* FAImageCropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903999F1E411D9500CC0C20 /* FAImageCropperUITests.swift */; };
+		292920851E537C0F00E64F49 /* FADetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292920841E537C0F00E64F49 /* FADetailVC.swift */; };
+		293130661E5229AE00A05606 /* FAGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293130651E5229AE00A05606 /* FAGridView.xib */; };
+		297AE46C1E4F7E0D0014D705 /* FAImageCropperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE46B1E4F7E0D0014D705 /* FAImageCropperVC.swift */; };
+		297AE46F1E4FA0970014D705 /* FAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE46E1E4FA0970014D705 /* FAImageLoader.swift */; };
+		297AE4791E4FE69F0014D705 /* FAImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE4771E4FE69F0014D705 /* FAImageCell.swift */; };
+		29E23C741E508CBC001F3E87 /* FAScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E23C731E508CBC001F3E87 /* FAScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		290399911E411D9500CC0C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290399741E411D9400CC0C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2903997B1E411D9400CC0C20;
+			remoteInfo = FAImageCropper;
+		};
+		2903999C1E411D9500CC0C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290399741E411D9400CC0C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2903997B1E411D9400CC0C20;
+			remoteInfo = FAImageCropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2903997C1E411D9500CC0C20 /* FAImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2903997F1E411D9500CC0C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290399841E411D9500CC0C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290399861E411D9500CC0C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290399891E411D9500CC0C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2903998B1E411D9500CC0C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290399901E411D9500CC0C20 /* FAImageCropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAImageCropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290399941E411D9500CC0C20 /* FAImageCropperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAImageCropperTests.swift; sourceTree = "<group>"; };
+		290399961E411D9500CC0C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2903999B1E411D9500CC0C20 /* FAImageCropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAImageCropperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2903999F1E411D9500CC0C20 /* FAImageCropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAImageCropperUITests.swift; sourceTree = "<group>"; };
+		290399A11E411D9500CC0C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292920841E537C0F00E64F49 /* FADetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FADetailVC.swift; sourceTree = "<group>"; };
+		293130651E5229AE00A05606 /* FAGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAGridView.xib; sourceTree = "<group>"; };
+		297AE46B1E4F7E0D0014D705 /* FAImageCropperVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageCropperVC.swift; sourceTree = "<group>"; };
+		297AE46E1E4FA0970014D705 /* FAImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageLoader.swift; sourceTree = "<group>"; };
+		297AE4711E4FE2010014D705 /* FAImageCropper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FAImageCropper-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		297AE4771E4FE69F0014D705 /* FAImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageCell.swift; sourceTree = "<group>"; };
+		29E23C731E508CBC001F3E87 /* FAScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290399791E411D9400CC0C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2903998D1E411D9500CC0C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290399981E411D9500CC0C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290399731E411D9400CC0C20 = {
+			isa = PBXGroup;
+			children = (
+				2903997E1E411D9500CC0C20 /* FAImageCropper */,
+				290399931E411D9500CC0C20 /* FAImageCropperTests */,
+				2903999E1E411D9500CC0C20 /* FAImageCropperUITests */,
+				2903997D1E411D9500CC0C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2903997D1E411D9500CC0C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2903997C1E411D9500CC0C20 /* FAImageCropper.app */,
+				290399901E411D9500CC0C20 /* FAImageCropperTests.xctest */,
+				2903999B1E411D9500CC0C20 /* FAImageCropperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2903997E1E411D9500CC0C20 /* FAImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				290399AD1E411D9D00CC0C20 /* AppDelegate */,
+				297AE46D1E4FA0850014D705 /* FAUtility */,
+				290399AE1E411DB600CC0C20 /* Controllers */,
+				290399AF1E411DDF00CC0C20 /* Views */,
+				290399B01E411DFB00CC0C20 /* Other */,
+			);
+			path = FAImageCropper;
+			sourceTree = "<group>";
+		};
+		290399931E411D9500CC0C20 /* FAImageCropperTests */ = {
+			isa = PBXGroup;
+			children = (
+				290399941E411D9500CC0C20 /* FAImageCropperTests.swift */,
+				290399961E411D9500CC0C20 /* Info.plist */,
+			);
+			path = FAImageCropperTests;
+			sourceTree = "<group>";
+		};
+		2903999E1E411D9500CC0C20 /* FAImageCropperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2903999F1E411D9500CC0C20 /* FAImageCropperUITests.swift */,
+				290399A11E411D9500CC0C20 /* Info.plist */,
+			);
+			path = FAImageCropperUITests;
+			sourceTree = "<group>";
+		};
+		290399AD1E411D9D00CC0C20 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2903997F1E411D9500CC0C20 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		290399AE1E411DB600CC0C20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				297AE46B1E4F7E0D0014D705 /* FAImageCropperVC.swift */,
+				292920841E537C0F00E64F49 /* FADetailVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		290399AF1E411DDF00CC0C20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				297AE4751E4FE6000014D705 /* Cells */,
+				297AE4741E4FE5EC0014D705 /* Stories */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		290399B01E411DFB00CC0C20 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				297AE4711E4FE2010014D705 /* FAImageCropper-Bridging-Header.h */,
+				290399861E411D9500CC0C20 /* Assets.xcassets */,
+				290399881E411D9500CC0C20 /* LaunchScreen.storyboard */,
+				2903998B1E411D9500CC0C20 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		297AE46D1E4FA0850014D705 /* FAUtility */ = {
+			isa = PBXGroup;
+			children = (
+				297AE46E1E4FA0970014D705 /* FAImageLoader.swift */,
+				29E23C731E508CBC001F3E87 /* FAScrollView.swift */,
+				293130651E5229AE00A05606 /* FAGridView.xib */,
+			);
+			name = FAUtility;
+			sourceTree = "<group>";
+		};
+		297AE4741E4FE5EC0014D705 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				290399831E411D9500CC0C20 /* Main.storyboard */,
+			);
+			name = Stories;
+			sourceTree = "<group>";
+		};
+		297AE4751E4FE6000014D705 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				297AE4761E4FE6150014D705 /* FAImageCell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		297AE4761E4FE6150014D705 /* FAImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				297AE4771E4FE69F0014D705 /* FAImageCell.swift */,
+			);
+			name = FAImageCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2903997B1E411D9400CC0C20 /* FAImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290399A41E411D9500CC0C20 /* Build configuration list for PBXNativeTarget "FAImageCropper" */;
+			buildPhases = (
+				290399781E411D9400CC0C20 /* Sources */,
+				290399791E411D9400CC0C20 /* Frameworks */,
+				2903997A1E411D9400CC0C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAImageCropper;
+			productName = FAImageCropper;
+			productReference = 2903997C1E411D9500CC0C20 /* FAImageCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2903998F1E411D9500CC0C20 /* FAImageCropperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290399A71E411D9500CC0C20 /* Build configuration list for PBXNativeTarget "FAImageCropperTests" */;
+			buildPhases = (
+				2903998C1E411D9500CC0C20 /* Sources */,
+				2903998D1E411D9500CC0C20 /* Frameworks */,
+				2903998E1E411D9500CC0C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290399921E411D9500CC0C20 /* PBXTargetDependency */,
+			);
+			name = FAImageCropperTests;
+			productName = FAImageCropperTests;
+			productReference = 290399901E411D9500CC0C20 /* FAImageCropperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2903999A1E411D9500CC0C20 /* FAImageCropperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290399AA1E411D9500CC0C20 /* Build configuration list for PBXNativeTarget "FAImageCropperUITests" */;
+			buildPhases = (
+				290399971E411D9500CC0C20 /* Sources */,
+				290399981E411D9500CC0C20 /* Frameworks */,
+				290399991E411D9500CC0C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2903999D1E411D9500CC0C20 /* PBXTargetDependency */,
+			);
+			name = FAImageCropperUITests;
+			productName = FAImageCropperUITests;
+			productReference = 2903999B1E411D9500CC0C20 /* FAImageCropperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290399741E411D9400CC0C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Fahid Attique";
+				TargetAttributes = {
+					2903997B1E411D9400CC0C20 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					2903998F1E411D9500CC0C20 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2903997B1E411D9400CC0C20;
+					};
+					2903999A1E411D9500CC0C20 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2903997B1E411D9400CC0C20;
+					};
+				};
+			};
+			buildConfigurationList = 290399771E411D9400CC0C20 /* Build configuration list for PBXProject "FAImageCropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290399731E411D9400CC0C20;
+			productRefGroup = 2903997D1E411D9500CC0C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2903997B1E411D9400CC0C20 /* FAImageCropper */,
+				2903998F1E411D9500CC0C20 /* FAImageCropperTests */,
+				2903999A1E411D9500CC0C20 /* FAImageCropperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2903997A1E411D9400CC0C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2903998A1E411D9500CC0C20 /* LaunchScreen.storyboard in Resources */,
+				290399871E411D9500CC0C20 /* Assets.xcassets in Resources */,
+				293130661E5229AE00A05606 /* FAGridView.xib in Resources */,
+				290399851E411D9500CC0C20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2903998E1E411D9500CC0C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290399991E411D9500CC0C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290399781E411D9400CC0C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E23C741E508CBC001F3E87 /* FAScrollView.swift in Sources */,
+				297AE46F1E4FA0970014D705 /* FAImageLoader.swift in Sources */,
+				292920851E537C0F00E64F49 /* FADetailVC.swift in Sources */,
+				290399801E411D9500CC0C20 /* AppDelegate.swift in Sources */,
+				297AE4791E4FE69F0014D705 /* FAImageCell.swift in Sources */,
+				297AE46C1E4F7E0D0014D705 /* FAImageCropperVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2903998C1E411D9500CC0C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290399951E411D9500CC0C20 /* FAImageCropperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290399971E411D9500CC0C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290399A01E411D9500CC0C20 /* FAImageCropperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290399921E411D9500CC0C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2903997B1E411D9400CC0C20 /* FAImageCropper */;
+			targetProxy = 290399911E411D9500CC0C20 /* PBXContainerItemProxy */;
+		};
+		2903999D1E411D9500CC0C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2903997B1E411D9400CC0C20 /* FAImageCropper */;
+			targetProxy = 2903999C1E411D9500CC0C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		290399831E411D9500CC0C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290399841E411D9500CC0C20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290399881E411D9500CC0C20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290399891E411D9500CC0C20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290399A21E411D9500CC0C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290399A31E411D9500CC0C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290399A51E411D9500CC0C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FAImageCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FAImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FAImageCropper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		290399A61E411D9500CC0C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FAImageCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FAImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FAImageCropper-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		290399A81E411D9500CC0C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FAImageCropperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FAImageCropperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FAImageCropper.app/FAImageCropper";
+			};
+			name = Debug;
+		};
+		290399A91E411D9500CC0C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FAImageCropperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FAImageCropperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FAImageCropper.app/FAImageCropper";
+			};
+			name = Release;
+		};
+		290399AB1E411D9500CC0C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FAImageCropperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FAImageCropperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FAImageCropper;
+			};
+			name = Debug;
+		};
+		290399AC1E411D9500CC0C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FAImageCropperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FAImageCropperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FAImageCropper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290399771E411D9400CC0C20 /* Build configuration list for PBXProject "FAImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290399A21E411D9500CC0C20 /* Debug */,
+				290399A31E411D9500CC0C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290399A41E411D9500CC0C20 /* Build configuration list for PBXNativeTarget "FAImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290399A51E411D9500CC0C20 /* Debug */,
+				290399A61E411D9500CC0C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290399A71E411D9500CC0C20 /* Build configuration list for PBXNativeTarget "FAImageCropperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290399A81E411D9500CC0C20 /* Debug */,
+				290399A91E411D9500CC0C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290399AA1E411D9500CC0C20 /* Build configuration list for PBXNativeTarget "FAImageCropperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290399AB1E411D9500CC0C20 /* Debug */,
+				290399AC1E411D9500CC0C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290399741E411D9400CC0C20 /* Project object */;
+}
