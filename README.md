@@ -10,6 +10,7 @@ Image Cropper like Instagram !
 ## Author
 
 **Fahid Attique** - https://github.com/fahidattique55
+
 **Saad Zulqarnain** - https://github.com/shsaadzulqarnain
 
 ## Platform
