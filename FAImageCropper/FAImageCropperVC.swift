@@ -133,59 +133,25 @@ class FAImageCropperVC: UIViewController {
     
     private func captureVisibleRect() -> UIImage{
         
-        let scrollContainerAsImage:UIImage = snapShotOfScrollContainer()
-        let visibleFrame:CGRect = visibleRectOf(imageView: scrollView.imageView)
-
-        let imageView:UIImageView = UIImageView(image: scrollContainerAsImage)
-        imageView.frame.origin = visibleFrame.origin
+        var croprect = CGRect.zero
+        let xOffset = (scrollView.imageToDisplay?.size.width)! / scrollView.contentSize.width;
+        let yOffset = (scrollView.imageToDisplay?.size.height)! / scrollView.contentSize.height;
         
-        let containerView:UIView = UIView(frame: view.frame)
-        containerView.addSubview(imageView)
+        croprect.origin.x = scrollView.contentOffset.x * xOffset;
+        croprect.origin.y = scrollView.contentOffset.y * yOffset;
         
-        UIGraphicsBeginImageContextWithOptions(visibleFrame.size, false, 0.0)
-        containerView.layer.render(in: UIGraphicsGetCurrentContext()!)
-        let visibleImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return visibleImage!
+        let normalizedWidth = (scrollView?.frame.width)! / (scrollView?.contentSize.width)!
+        let normalizedHeight = (scrollView?.frame.height)! / (scrollView?.contentSize.height)!
+        
+        croprect.size.width = scrollView.imageToDisplay!.size.width * normalizedWidth
+        croprect.size.height = scrollView.imageToDisplay!.size.height * normalizedHeight
+        
+        let cr: CGImage? = scrollView.imageView.image?.cgImage?.cropping(to: croprect)
+        let cropped = UIImage(cgImage: cr!)
+        
+        return cropped
 
     }
-    
-    private func visibleRectOf(imageView:UIImageView) -> CGRect{
-
-        var visibleImageFrame:CGRect = CGRect(origin: .zero, size: scrollContainerView.frame.size)
-
-        let imageViewFrame:CGRect = imageView.frame
-
-        if imageViewFrame.origin.x > 0 {
-            visibleImageFrame.origin.x = -imageViewFrame.origin.x
-        }
-        
-        if imageViewFrame.origin.y > 0 {
-            visibleImageFrame.origin.y = -imageViewFrame.origin.y
-        }
-        
-        if imageViewFrame.size.width < scrollContainerView.frame.size.width {
-            visibleImageFrame.size.width = imageViewFrame.size.width
-        }
-
-        if imageViewFrame.size.height < scrollContainerView.frame.size.height {
-            visibleImageFrame.size.height = imageViewFrame.size.height
-        }
-        
-        return visibleImageFrame
-    }
-
-    
-    private func snapShotOfScrollContainer() -> UIImage{
-        
-        UIGraphicsBeginImageContextWithOptions(scrollView.frame.size, false, 0.0)
-        scrollContainerView.layer.render(in: UIGraphicsGetCurrentContext()!)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image!
-    }
-    
-    
     private func isSquareImage() -> Bool{
         let image = scrollView.imageToDisplay
         if image?.size.width == image?.size.height { return true }
