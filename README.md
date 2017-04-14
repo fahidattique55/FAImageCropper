@@ -30,7 +30,7 @@ Swift 3.1
 * Zoom-in and zoom-out button like instagram
 * Grid view while editing/touch begins
 * Crop Image while maintaining aspect ratio of image
-
+* Crop Image With original image resolution 
 
 ## License
 
