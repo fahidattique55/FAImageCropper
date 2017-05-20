@@ -8,6 +8,10 @@
 
 import UIKit
 
+
+public let FAImagePlaceHolderSize: CGSize = CGSize(width: 100.0, height: 100.0)
+
+
 class FAImageCell: UICollectionViewCell {
 
     //  MARK: IBOutlets
@@ -51,7 +55,7 @@ class FAImageCell: UICollectionViewCell {
 
     func populateDataWith(asset:PHAsset) {
         
-        FAImageLoader.imageFrom(asset: asset) { (image) in
+        FAImageLoader.imageFrom(asset: asset, size: FAImagePlaceHolderSize) { (image) in
             DispatchQueue.main.async {
                 if self.imageView != nil{
                     self.imageView.image = image

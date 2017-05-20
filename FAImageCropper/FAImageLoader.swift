@@ -31,12 +31,12 @@ class FAImageLoader: NSObject {
         })
     }
     
-    static func imageFrom(asset:PHAsset, success:@escaping (_ photo:UIImage)->Void){
+    static func imageFrom(asset:PHAsset, size:CGSize, success:@escaping (_ photo:UIImage)->Void){
 
         let options = PHImageRequestOptions()
         options.isSynchronous = false
         options.deliveryMode = .highQualityFormat
-        PHImageManager.default().requestImage(for: asset, targetSize: PHImageManagerMaximumSize, contentMode: .aspectFill, options: options, resultHandler: { (image, attributes) in
+        PHImageManager.default().requestImage(for: asset, targetSize: size, contentMode: .aspectFill, options: options, resultHandler: { (image, attributes) in
             success(image!)
         })
     }

@@ -124,12 +124,9 @@ class FAImageCropperVC: UIViewController {
 
     private func selectDefaultImage(){
         collectionView.selectItem(at: IndexPath(item: 0, section: 0), animated: true, scrollPosition: .top)
-        FAImageLoader.imageFrom(asset: photos[0]) { (image) in
-            DispatchQueue.main.async {
-                self.displayImageInScrollView(image: image)
-            }
-        }
+        selectImageFromAssetAtIndex(index: 0)
     }
+    
     
     private func captureVisibleRect() -> UIImage{
         
@@ -161,6 +158,15 @@ class FAImageCropperVC: UIViewController {
     
     // MARK: Public Functions
 
+    func selectImageFromAssetAtIndex(index:NSInteger){
+        
+        FAImageLoader.imageFrom(asset: photos[index], size: PHImageManagerMaximumSize) { (image) in
+            DispatchQueue.main.async {
+                self.displayImageInScrollView(image: image)
+            }
+        }
+    }
+    
     func displayImageInScrollView(image:UIImage){
         self.scrollView.imageToDisplay = image
         if isSquareImage() { btnZoom.isHidden = true }
@@ -191,7 +197,7 @@ extension FAImageCropperVC:UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell:FAImageCell = collectionView.cellForItem(at: indexPath) as! FAImageCell
         cell.isSelected = true
-        displayImageInScrollView(image: cell.imageView.image!)
+        selectImageFromAssetAtIndex(index: indexPath.item)
     }
 }
 
