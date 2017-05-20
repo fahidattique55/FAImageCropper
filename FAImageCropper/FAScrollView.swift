@@ -91,6 +91,12 @@ class FAScrollView: UIScrollView{
                 actualWidth = frame.size.width
             }
         }
+        else {
+            imgRatio = frame.size.width / actualWidth
+            actualHeight = imgRatio * actualHeight
+            actualWidth = frame.size.width
+        }
+
         return  CGSize(width: actualWidth, height: actualHeight)
     }
     
