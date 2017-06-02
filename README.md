@@ -1,7 +1,3 @@
-# FAImageCropper
-Image Cropper like Instagram !
-
-
 ![Alt text](http://i.imgur.com/lu6ln8t.jpg "FAImageCropper-Logo")
 
 
