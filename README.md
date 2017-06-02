@@ -2,6 +2,13 @@
 Image Cropper like Instagram !
 
 
+![Alt text](http://i.imgur.com/lu6ln8t.jpg "FAImageCropper-Logo")
+
+
+[![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)
+
+## Demo
+
 ![Alt text](http://i.imgur.com/koU7beQ.gif "FAImageCropper-Gif")
 
 ![Alt text](http://i.imgur.com/M7yBDoM.png "FAImageCropper-Image")
@@ -15,7 +22,7 @@ Image Cropper like Instagram !
 
 ## Platform
 
-Swift 3.1
+Swift 3.0
 
 
 ## Installation

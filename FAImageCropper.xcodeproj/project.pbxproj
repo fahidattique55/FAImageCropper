@@ -15,6 +15,7 @@
 		290399A01E411D9500CC0C20 /* FAImageCropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903999F1E411D9500CC0C20 /* FAImageCropperUITests.swift */; };
 		292920851E537C0F00E64F49 /* FADetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292920841E537C0F00E64F49 /* FADetailVC.swift */; };
 		293130661E5229AE00A05606 /* FAGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293130651E5229AE00A05606 /* FAGridView.xib */; };
+		2965F1261EE1B42B001F1B5A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2965F1251EE1B42B001F1B5A /* README.md */; };
 		297AE46C1E4F7E0D0014D705 /* FAImageCropperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE46B1E4F7E0D0014D705 /* FAImageCropperVC.swift */; };
 		297AE46F1E4FA0970014D705 /* FAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE46E1E4FA0970014D705 /* FAImageLoader.swift */; };
 		297AE4791E4FE69F0014D705 /* FAImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE4771E4FE69F0014D705 /* FAImageCell.swift */; };
@@ -53,6 +54,7 @@
 		290399A11E411D9500CC0C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292920841E537C0F00E64F49 /* FADetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FADetailVC.swift; sourceTree = "<group>"; };
 		293130651E5229AE00A05606 /* FAGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAGridView.xib; sourceTree = "<group>"; };
+		2965F1251EE1B42B001F1B5A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		297AE46B1E4F7E0D0014D705 /* FAImageCropperVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageCropperVC.swift; sourceTree = "<group>"; };
 		297AE46E1E4FA0970014D705 /* FAImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageLoader.swift; sourceTree = "<group>"; };
 		297AE4711E4FE2010014D705 /* FAImageCropper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FAImageCropper-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
@@ -88,6 +90,7 @@
 		290399731E411D9400CC0C20 = {
 			isa = PBXGroup;
 			children = (
+				2965F1251EE1B42B001F1B5A /* README.md */,
 				2903997E1E411D9500CC0C20 /* FAImageCropper */,
 				290399931E411D9500CC0C20 /* FAImageCropperTests */,
 				2903999E1E411D9500CC0C20 /* FAImageCropperUITests */,
@@ -346,6 +349,7 @@
 				29E23C741E508CBC001F3E87 /* FAScrollView.swift in Sources */,
 				297AE46F1E4FA0970014D705 /* FAImageLoader.swift in Sources */,
 				292920851E537C0F00E64F49 /* FADetailVC.swift in Sources */,
+				2965F1261EE1B42B001F1B5A /* README.md in Sources */,
 				290399801E411D9500CC0C20 /* AppDelegate.swift in Sources */,
 				297AE4791E4FE69F0014D705 /* FAImageCell.swift in Sources */,
 				297AE46C1E4F7E0D0014D705 /* FAImageCropperVC.swift in Sources */,
