@@ -100,9 +100,21 @@ class FAImageCropperVC: UIViewController {
     }
     
     private func viewConfigurations() {
+        
+        navigationBarConfigurations()
         btnCrop.layer.cornerRadius = btnCrop.frame.size.width/2
         btnZoom.layer.cornerRadius = btnZoom.frame.size.width/2
     }
+    
+    private func navigationBarConfigurations() {
+    
+        navigationController?.navigationBar.backgroundColor = .black
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.setBackgroundImage(UIImage(color: .black), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage(color: .clear)
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+    }
+
     
     private func loadPhotos(){
 
@@ -206,9 +218,7 @@ extension FAImageCropperVC:UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let width:CGFloat = ((UIScreen.main.bounds.size.width-10)/3)-7
-
-//        let width:CGFloat = (collectionView.bounds.size.width-25)/3
+        let width:CGFloat = ((UIScreen.main.bounds.size.width)/3)-2
         return CGSize(width: width, height: width)
     }
 }

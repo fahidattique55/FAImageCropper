@@ -19,6 +19,7 @@
 		297AE46C1E4F7E0D0014D705 /* FAImageCropperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE46B1E4F7E0D0014D705 /* FAImageCropperVC.swift */; };
 		297AE46F1E4FA0970014D705 /* FAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE46E1E4FA0970014D705 /* FAImageLoader.swift */; };
 		297AE4791E4FE69F0014D705 /* FAImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AE4771E4FE69F0014D705 /* FAImageCell.swift */; };
+		29A202081EE2CB6500FA7B8D /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A202071EE2CB6500FA7B8D /* UIImage+Additions.swift */; };
 		29E23C741E508CBC001F3E87 /* FAScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E23C731E508CBC001F3E87 /* FAScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		297AE46E1E4FA0970014D705 /* FAImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageLoader.swift; sourceTree = "<group>"; };
 		297AE4711E4FE2010014D705 /* FAImageCropper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FAImageCropper-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		297AE4771E4FE69F0014D705 /* FAImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageCell.swift; sourceTree = "<group>"; };
+		29A202071EE2CB6500FA7B8D /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 		29E23C731E508CBC001F3E87 /* FAScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,7 @@
 		297AE46D1E4FA0850014D705 /* FAUtility */ = {
 			isa = PBXGroup;
 			children = (
+				29A202061EE2CB5000FA7B8D /* Extensions */,
 				297AE46E1E4FA0970014D705 /* FAImageLoader.swift */,
 				29E23C731E508CBC001F3E87 /* FAScrollView.swift */,
 				293130651E5229AE00A05606 /* FAGridView.xib */,
@@ -207,6 +210,14 @@
 				297AE4771E4FE69F0014D705 /* FAImageCell.swift */,
 			);
 			name = FAImageCell;
+			sourceTree = "<group>";
+		};
+		29A202061EE2CB5000FA7B8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29A202071EE2CB6500FA7B8D /* UIImage+Additions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +362,7 @@
 				292920851E537C0F00E64F49 /* FADetailVC.swift in Sources */,
 				2965F1261EE1B42B001F1B5A /* README.md in Sources */,
 				290399801E411D9500CC0C20 /* AppDelegate.swift in Sources */,
+				29A202081EE2CB6500FA7B8D /* UIImage+Additions.swift in Sources */,
 				297AE4791E4FE69F0014D705 /* FAImageCell.swift in Sources */,
 				297AE46C1E4F7E0D0014D705 /* FAImageCropperVC.swift in Sources */,
 			);

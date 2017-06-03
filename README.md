@@ -3,22 +3,13 @@
 
 [![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)
 
-## Demo
-
-![Alt text](http://i.imgur.com/koU7beQ.gif "FAImageCropper-Gif")
-
-![Alt text](http://i.imgur.com/M7yBDoM.png "FAImageCropper-Image")
 
 
-## Author
+## Quick Look
 
-**Fahid Attique** - https://github.com/fahidattique55
+![Alt text](http://i.imgur.com/tu9foj9.gif "FAImageCropper-Gif")
 
-**Saad Zulqarnain** - https://github.com/shsaadzulqarnain
-
-## Platform
-
-Swift 3.0
+![Alt text](http://i.imgur.com/nYxMYQW.png "FAImageCropper-Image")
 
 
 ## Installation
@@ -40,3 +31,10 @@ Swift 3.0
 This project is licensed under the  Apache License 2.0. 
 
 For more details visit http://www.apache.org/licenses/LICENSE-2.0
+
+
+## Author
+
+**Fahid Attique** - https://github.com/fahidattique55
+
+**Saad Zulqarnain** - https://github.com/shsaadzulqarnain
