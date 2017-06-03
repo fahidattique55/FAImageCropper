@@ -1,4 +1,4 @@
-![Alt text](http://i.imgur.com/lu6ln8t.jpg "FAImageCropper-Logo")
+![Alt text](http://i.imgur.com/ZIwZZIU.png "FAImageCropper-Logo")
 
 
 [![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)
