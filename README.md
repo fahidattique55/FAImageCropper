@@ -7,7 +7,7 @@
 
 ## Quick Look
 
-![Alt text](http://i.imgur.com/tu9foj9.gif "FAImageCropper-Gif")
+![Alt text](http://i.imgur.com/ZdUJbxZ.gif "FAImageCropper-Gif")
 
 ![Alt text](http://i.imgur.com/nYxMYQW.png "FAImageCropper-Image")
 
