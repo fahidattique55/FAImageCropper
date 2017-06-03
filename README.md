@@ -9,7 +9,7 @@
 
 ![Alt text](http://i.imgur.com/ZdUJbxZ.gif "FAImageCropper-Gif")
 
-![Alt text](http://i.imgur.com/nYxMYQW.png "FAImageCropper-Image")
+![Alt text](http://i.imgur.com/mbva5EH.gif "FAImageCropper-Image")
 
 
 ## Installation
