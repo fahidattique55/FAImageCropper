@@ -9,6 +9,10 @@
 
 ![Alt text](http://i.imgur.com/ZdUJbxZ.gif "FAImageCropper-Gif")
 
+
+![Alt text](http://i.imgur.com/cIZMZ55.gif "FAImageCropper-Gesture-Demo")
+
+
 ![Alt text](http://i.imgur.com/mbva5EH.gif "FAImageCropper-Image")
 
 
@@ -24,7 +28,8 @@
 * Zoom-in and zoom-out button like instagram
 * Grid view while editing/touch begins
 * Crop Image while maintaining aspect ratio of image
-* Crop Image With original image resolution 
+* Crop Image With original image resolution
+* Drag and drop functionality on long press gesture recognizer
 
 ## License
 

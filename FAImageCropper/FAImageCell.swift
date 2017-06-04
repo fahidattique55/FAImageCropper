@@ -20,6 +20,8 @@ class FAImageCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
 
     // MARK: Class Properties
+
+    var longPressGestrue: UILongPressGestureRecognizer!
     
     override var isSelected:Bool{
         
@@ -63,4 +65,12 @@ class FAImageCell: UICollectionViewCell {
             }
         }
     }
+
+    func configureGestureWithTarget(target: Any?, action: Selector?) {
+        
+        longPressGestrue = UILongPressGestureRecognizer(target: target, action: action)
+        longPressGestrue.minimumPressDuration = 0.25
+        self.addGestureRecognizer(longPressGestrue)
+    }
+
 }
