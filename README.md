@@ -42,4 +42,7 @@ For more details visit http://www.apache.org/licenses/LICENSE-2.0
 
 **Fahid Attique** - https://github.com/fahidattique55
 
-**Saad Zulqarnain** - https://github.com/shsaadzulqarnain
+
+## Special Thanks
+
+**Saad Zulqarnain** - https://github.com/shsaadzulqarnain for helping me to get cropped image with orignal resolution.
