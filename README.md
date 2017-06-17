@@ -1,13 +1,7 @@
 ![Alt text](http://i.imgur.com/LqJCgcv.png "FAImageCropper-Logo")
 
 
-![Alt text](http://i.imgur.com/xmQfyj0.gif "FAImageCropper-Gif")
-
-
-![Alt text](http://i.imgur.com/cIZMZ55.gif "FAImageCropper-Gesture-Demo")
-
-
-![Alt text](http://i.imgur.com/mbva5EH.gif "FAImageCropper-Image")
+![Alt text](http://i.imgur.com/SEoCj6z.gif "FAImageCropper-Gif")
 
 
 
