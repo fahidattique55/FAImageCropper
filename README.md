@@ -1,9 +1,11 @@
 ![Alt text](http://i.imgur.com/LqJCgcv.png "FAImageCropper-Logo")
 
 
-![Alt text](http://i.imgur.com/SEoCj6z.gif "FAImageCropper-Gif")
-
-
+<p align="center">
+    <a href="http://i.imgur.com/SEoCj6z.gif">
+        <img src="http://i.imgur.com/SEoCj6z.gif" height="450">
+    </a>
+</p>
 
 
 [![Swift version](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)](https://img.shields.io/badge/swift-3.0-orange.svg?style=flat.svg)
