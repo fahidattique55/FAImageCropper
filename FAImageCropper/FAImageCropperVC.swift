@@ -33,7 +33,7 @@ class FAImageCropperVC: UIViewController {
     var imageViewToDrag: UIImageView!
     var indexPathOfImageViewToDrag: IndexPath!
     
-    let cellWidth = ((UIScreen.main.bounds.size.width)/3)-2
+    let cellWidth = ((UIScreen.main.bounds.size.width)/3)-1
     
     
     // MARK: Private Properties
