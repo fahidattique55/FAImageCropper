@@ -158,7 +158,8 @@ class FAImageCropperVC: UIViewController {
         croprect.size.width = scrollView.imageToDisplay!.size.width * normalizedWidth
         croprect.size.height = scrollView.imageToDisplay!.size.height * normalizedHeight
         
-        let cr: CGImage? = scrollView.imageView.image?.cgImage?.cropping(to: croprect)
+        let toCropImage = scrollView.imageView.image?.fixImageOrientation()
+        let cr: CGImage? = toCropImage?.cgImage?.cropping(to: croprect)
         let cropped = UIImage(cgImage: cr!)
         
         return cropped
